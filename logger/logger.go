@@ -5,13 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	//"trustlogin.com/reports-service/internal/metrics"
-
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	//"trustlogin.com/reports-service/internal/config"
 )
 
 const namespace = "report_service"
