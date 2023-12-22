@@ -101,7 +101,7 @@ func cursorPaginate(client *es.Client, ctx context.Context, index string) []es.U
 }
 
 func prepareESClient() *es.Client {
-	esHost := "http://localhost:4566/es/us-east-1/reports-service-logs"
+	esHost := "http://localhost:4566/es/us-east-1/my-data"
 	esUsername := ""
 	esPassword := ""
 	esIndex := "my-simple-index"

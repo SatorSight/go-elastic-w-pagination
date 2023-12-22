@@ -11,7 +11,7 @@ import (
 	"go.uber.org/zap/zapcore"
 )
 
-const namespace = "report_service"
+const namespace = "my_service"
 
 const (
 	level       = "level"
