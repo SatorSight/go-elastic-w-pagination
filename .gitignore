@@ -1,0 +1,7 @@
+.temp
+.DS_Store
+.idea
+.env
+/app/cover.out
+/app/cover.score
+./app/dist
